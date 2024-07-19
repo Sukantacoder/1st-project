@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="text-align: center; ">Sign Up Form</h1>
+    <hr>
+    <br>
+    <label for="user"> Name : </label>
+    <input type="text" id="user" name="user" placeholder="user name">
+    <label for="email">Email :</label>
+    <input type="email" id="email" name="email" placeholder="email" required>
+    <br>
+    <label for="pass">Passward :</label>
+    <input type="password" id="pass" name="password" placeholder="password">
+    <br>
+    <label for="phn">Mobile Number :</label>
+    <br>
+    <select name="code">
+    <option value="+91">+91</option>
+    <option value="+880">+880</option>
+    </select>
+    <input type="number" name="phone" id="phn" placeholder="Mobile Number" required>
+    <br>
+    <label for="country">Your country</label>
+    <input list="con">
+    <datalist id="con">
+        <option value="Bangladesh"></option>
+        <option value="India"></option>
+        <option value="Canada"></option>
+    </datalist>
+
+    <br>
+    Gender:
+    <input type="radio" id="gnd1" name="gender">
+    <label for="gnd1">male</label>
+    <input type="radio" id="gnd2" name="gender">
+    <label for="gnd2">Female</label>
+    <br>
+    
+    <label for="dob">Date of Birth :</label>
+    <input type="date" id="dob" name="date of birth">
+    <br>
+    <label for="time">Time :</label>
+    <input type="time" id="time" name="time">
+    <br>
+    <label for="color">Color :</label>
+    <input type="color" id="color" name="color">
+    <br>
+    <label for="file">Chose your Photo :</label>
+    <input type="file" id="file" name="file">
+    <br>
+    <input type="checkbox" id="vc1" name="vc1">
+    <label for="vc1">I have a bike</label>
+    <input type="checkbox" id="vc2" name="vc2">
+    <label for="vc2">I have a bycycle</label>
+    <br>
+    <textarea name="comment" id="cmt" cols="30" rows="10">Comment Here</textarea>
+    <br>
+    <input type="submit" value="Send">
+    <input type="reset" name="reset" id="reset" value="Reset">
+
+
+</body>
+</html>
